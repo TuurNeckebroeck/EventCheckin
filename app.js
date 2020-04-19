@@ -120,7 +120,7 @@ $(document).ready(function() {
     });
 
     function popupCheckin(name) {
-      const text = '<div class="alert alert-dismissible alert-success"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message</a>.</div>';
+      const text = '<div class="alert alert-dismissible alert-success"><button type="button" class="close" data-dismiss="alert">&times;</button>Successfully checked in.</div>';
       $('#alert_div').html(text);
       $('#alert_div').css("display", "visible");
     }
